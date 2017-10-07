@@ -1,6 +1,6 @@
 {
   "name": "hyperapp-compose",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Compose HOAs for Hyperapp",
   "main": "dist/compose.js",
   "jsnext:main": "src/index.js",
@@ -9,6 +9,10 @@
     "type": "git",
     "url": "git+https://github.com/okwolf/hyperapp-compose.git"
   },
+  "files": [
+    "src/**",
+    "dist/**"
+  ],
   "scripts": {
     "test": "jest --coverage --no-cache",
     "build": "npm run bundle && npm run minify",
